@@ -1,0 +1,9 @@
+set retain_order = 1
+select water , resn sol
+select membrane, resn pop
+select protein, pol.
+select aliph, membrane and e. c and not name c1+c2+c3+c5+c6+c12+c13+c34
+select over, water nto. 2 of aliph
+select over, byres over
+remove over
+

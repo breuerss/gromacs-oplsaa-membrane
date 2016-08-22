@@ -1,0 +1,7 @@
+load init-system-solvated.pdb
+
+remove byres resn sol nto. 6 of (resn pop or pol.)
+
+save init-system-solvated.pdb
+
+quit

@@ -1,0 +1,66 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1-palmitoyl,2-oleoyl-sn-glycero-3-phosphocholine (POPC)
+Forcefield:    OPLS
+Code:          Gromacs
+Version:       1 (created: 20-04-2012, last update: 20-04-2012)
+Curator:       Martin Ulmschneider
+Lipidbook URL: https://lipidbook.bioch.ox.ac.uk/version/show/id/78.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+128-popc-eq.pdb           : 8d55b4d96813278c0b66d6b54ea427948aad71ce
+128-popc.top              : 54448f0f70ec332b29a059217637d85792350964
+opls-ua-lipid-atomtypes.itp : 6478a31753df68961d77a9d977254ed9783e5e2e
+popc_opls.itp             : 3358b5c835eae47ed599e0743a3621e6ac5702e4
+SHA1 of all files         : 56d00637f3e882f52e844e5bfb715d3904ef1881
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     United Atom Lipid Parameters for Combination with the Optimized Potentials for Liquid Simulations All-Atom Force Field
+Authors:   Jakob P. Ulmschneider and Martin B. Ulmschneider
+Journal:   J Chem Theory Computation  
+Year:      2009
+Volume:    5
+Page:      1803–1813
+pubmed id: 
+doi:       10.1021/ct900086b
+
+Additional notes:  
+           -
+

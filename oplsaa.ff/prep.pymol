@@ -1,0 +1,20 @@
+load init-system-boxed.pdb
+load water-box.pdb
+
+remove byres resn sol nto. 6 of (resn pop or pol.)
+select waterInBox, bycell resn sol nto. 7 of pol
+select waterOutBox, byres resn sol and not (waterInBox)
+remove byres resn sol within 10 of waterOutBox
+
+create protein, pol.
+create membrane, resn pop
+create water, resn sol
+
+delete init-system-boxed
+delete water-box
+delete waterInBox
+delete waterOutBox
+
+save init-system-solvated.pdb
+
+quit
